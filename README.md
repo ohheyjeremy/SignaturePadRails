@@ -1,3 +1,5 @@
+Note: Gem is in early testing.
+
 # SignaturePadRails
 
 Easy integration of signature_pad.js with Rails applications.
