@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["heyjeremy"]
   spec.email = ["hello@heyjeremy.com"]
 
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/ohheyjeremy/SignaturePadRails"
   spec.summary     = "Signature pad integration for Rails applications"
   spec.description = "Easy integration of signature_pad.js with Rails, including models and views"
   spec.license     = "MIT"
