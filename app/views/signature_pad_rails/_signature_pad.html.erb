@@ -1,0 +1,15 @@
+# app/views/signature_pad_rails/_signature_pad.html.erb
+<div class="signature-pad-container">
+  <canvas id="signature-pad" class="signature-pad" width="400" height="200"></canvas>
+  
+  <%= form_with(model: signable, local: true, id: 'signature-form') do |form| %>
+    <%= form.fields_for :signature do |signature_form| %>
+      <%= signature_form.hidden_field :data, id: 'signature_data' %>
+    <% end %>
+    
+    <div class="signature-pad-actions">
+      <button id="clear-signature" class="btn btn-secondary">Clear</button>
+      <button id="save-signature" class="btn btn-primary">Save</button>
+    </div>
+  <% end %>
+</div>
